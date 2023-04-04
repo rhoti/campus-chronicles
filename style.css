@@ -1,0 +1,140 @@
+/* Set default font and background */
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #f6f6f6;
+}
+
+/* Style the header */
+header {
+  color: rgba(171,229,233,255);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 4rem;
+  letter-spacing: 3px;
+  margin: 0;
+  text-shadow: 1px 1px #000;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #2c2c2c;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: white;
+  border-radius: 5px;
+}
+/*stlye the body */
+body {
+  background-image: url('photos/life.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#blog {
+  color: black;
+  padding: 0;
+}
+
+#blog h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#blog ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#blog li {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#blog li a {
+  color: black;
+  text-decoration: none;
+}
+
+#blog li a:hover {
+  text-decoration: underline;
+}
+
+
+main h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px #000;
+}
+
+main p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: black;
+}
+
+/* Style the footer */
+footer {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.2rem;
+  margin: 0;
+  text-shadow: 1px 1px #000;
+}
+/* Styles for animating the headings */
+h1, h2 {
+    animation-name: slide-up;
+    animation-duration: 0.6s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    opacity: 0;
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+

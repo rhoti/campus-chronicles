@@ -1,0 +1,23 @@
+#home {
+  background-image: url('photos/water.jpg');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home h1 {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+#home p {
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  text-shadow: 1px 1px black;
+}

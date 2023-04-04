@@ -1,0 +1,11 @@
+/*about*/
+body{
+     background-image: url('photos/white.jpg');
+  background-size:cover;
+  background-position: center;
+  height: 200px;
+  width: 200px
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
